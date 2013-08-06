@@ -1,6 +1,8 @@
 
 ## About
 
+Associate *.git* files with TextEditor
+
 ![](with-git-addon.PNG)
 
 Builded againt Indigo and tested in Kepler.
@@ -33,7 +35,8 @@ Please be careful [if you use Nexus](https://github.com/open-archetypes/tycho-ec
 For `kepler` update `MANIFEST.MF` as below in `.test` project (see [#3](https://github.com/open-archetypes/tycho-eclipse-plugin-archetype/issues/3))
 `Require-Bundle: org.eclipse.jdt.junit4.runtime;bundle-version="1.1.0",
  org.junit;bundle-version="4.11.0"`
- 
+
+MIT License was chosen at <http://choosealicense.com/> 
 
 ## Other 
 
