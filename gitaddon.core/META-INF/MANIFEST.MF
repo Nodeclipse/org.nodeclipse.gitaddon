@@ -3,9 +3,9 @@ Bundle-ManifestVersion: 2
 Bundle-Name: gitaddon Core Plugin
 Bundle-SymbolicName: gitaddon.core;singleton:=true
 Bundle-Version: 0.1.0.qualifier
+Bundle-ClassPath: target/classes
 Bundle-Activator: org.nodeclipse.gitaddon.core.Activator
 Require-Bundle: org.eclipse.ui,
  org.eclipse.core.runtime
-Bundle-ActivationPolicy: lazy
 Bundle-RequiredExecutionEnvironment: J2SE-1.5,
  JavaSE-1.6
