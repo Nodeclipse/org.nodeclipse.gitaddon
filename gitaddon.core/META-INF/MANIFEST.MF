@@ -1,11 +1,12 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: gitaddon Core Plugin
+Bundle-Name: Nodeclipse Git Addon
 Bundle-SymbolicName: gitaddon.core;singleton:=true
 Bundle-Version: 0.1.0.qualifier
 Bundle-Activator: org.nodeclipse.gitaddon.core.Activator
 Bundle-Vendor: Nodeclipse organizaton
 Require-Bundle: org.eclipse.ui,
- org.eclipse.core.runtime
+ org.eclipse.core.runtime,
+ org.eclipse.ui.editors
 Bundle-RequiredExecutionEnvironment: J2SE-1.5,
  JavaSE-1.6

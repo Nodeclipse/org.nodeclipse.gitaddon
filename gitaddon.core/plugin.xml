@@ -30,12 +30,12 @@
    <extension
          point="org.eclipse.ui.editors">
       <editor
-            class="org.eclipse.ui.DefaultTextEditor"
+            id="org.eclipse.ui.DefaultTextEditor"
+            name="Text Editor"
+            class="org.eclipse.ui.editors.text.TextEditor"
             default="true"
             extensions="gitignore,gitmodules,gitattributes"
-            icon="icons/git.ico"
-            id="org.eclipse.ui.DefaultTextEditor"
-            name="Text Editor">
+            icon="icons/git.ico">
       </editor>
    </extension>
 

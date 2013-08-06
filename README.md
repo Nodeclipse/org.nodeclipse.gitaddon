@@ -17,15 +17,20 @@ Builded againt Indigo and tested in Kepler.
             name="Text Editor">
       </editor>
 
+# Get
+
+1. In Eclipse import.. Git
+2. as New general project 
+3. right-click import Existing Maven projects
 
 ## Install from sources
 
-`mvn package`  
-`npm install http-server -g`
-`http-server gitaddon.site\target\repository`
-start http://localhost:8080/
-// navigate `http://localhost:8080/` in browser to check
-Help->Install New Software, enter http://localhost:8080/ in Work With
+1. `mvn package`  
+2. `npm install http-server -g`  
+3. `http-server gitaddon.site\target\repository`
+4. start http://localhost:8080/  
+5. // navigate `http://localhost:8080/` in browser to check  
+5. Help->Install New Software, enter http://localhost:8080/ in Work With  
 
 Run offline if to re-build
 `mvn -o package`
@@ -56,3 +61,10 @@ MIT License was chosen at <http://choosealicense.com/>
 
 Not used here, but you also may be interested in
  [A Maven Archetype for Hadoop Jobs](http://blog.mafr.de/2010/08/01/maven-archetype-hadoop/)
+ 
+ ### Other links
+ 
+ - http://stackoverflow.com/questions/12402860/eclipse-ctrlspace-content-assist-hook
+ - http://stackoverflow.com/questions/1103199/eclipse-plugin-editor
+ 
+ 
