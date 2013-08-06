@@ -35,7 +35,7 @@
             default="true"
             extensions="gitignore,gitmodules,gitattributes"
             icon="icons/git.ico"
-            id="org.eclipse.ui.editors.text.TextEditor"
+            id="org.eclipse.ui.DefaultTextEditor"
             name="Text Editor">
       </editor>
    </extension>
