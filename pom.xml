@@ -89,7 +89,9 @@
   </build>  
   <modules>
     <module>gitaddon.core</module>
+    <!-- disable 
     <module>gitaddon.test</module>
+     -->
     <module>gitaddon.feature</module>
     <module>gitaddon.site</module>
   </modules>

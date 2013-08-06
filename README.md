@@ -15,6 +15,12 @@ read https://github.com/open-archetypes/tycho-eclipse-plugin-archetype
 
 Please be careful [if you use Nexus](https://github.com/open-archetypes/tycho-eclipse-plugin-archetype/issues/5)
 
+For `kepler` update `MANIFEST.MF` as below in `.test` project (see [#3](https://github.com/open-archetypes/tycho-eclipse-plugin-archetype/issues/3))
+`Require-Bundle: org.eclipse.jdt.junit4.runtime;bundle-version="1.1.0",
+ org.junit;bundle-version="4.11.0"`
+ 
+
+## Other 
 
 Not used here, but you also may be interested in
  [A Maven Archetype for Hadoop Jobs](http://blog.mafr.de/2010/08/01/maven-archetype-hadoop/)
