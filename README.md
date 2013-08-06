@@ -1,4 +1,19 @@
 
+## About
+
+![](with-git-addon.PNG)
+
+Builded againt Indigo and tested in Kepler.
+
+## Install from sources
+
+`mvn package`  
+`npm install http-server -g`
+`http-server gitaddon.site\target\repository`
+start http://localhost:8080/
+// navigate `http://localhost:8080/` in browser to check
+Help->Install New Software, enter http://localhost:8080/ in Work With
+
 ## Created
 
 Created with Open-Archetypes
