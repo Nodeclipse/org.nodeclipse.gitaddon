@@ -7,6 +7,17 @@ Associate *.git* files with TextEditor
 
 Builded againt Indigo and tested in Kepler.
 
+      <editor
+            class="org.eclipse.ui.editors.text.TextEditor"
+            contributorClass="org.eclipse.ui.texteditor.BasicTextEditorActionContributor"
+            default="true"
+            extensions="gitignore,gitmodules,gitattributes"
+            icon="icons/git.ico"
+            id="org.eclipse.ui.DefaultTextEditor"
+            name="Text Editor">
+      </editor>
+
+
 ## Install from sources
 
 `mvn package`  
@@ -15,6 +26,9 @@ Builded againt Indigo and tested in Kepler.
 start http://localhost:8080/
 // navigate `http://localhost:8080/` in browser to check
 Help->Install New Software, enter http://localhost:8080/ in Work With
+
+Run offline if to re-build
+`mvn -o package`
 
 ## Created
 
