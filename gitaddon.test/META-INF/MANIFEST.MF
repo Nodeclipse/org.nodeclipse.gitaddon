@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: gitaddon Test Fragment
+Bundle-SymbolicName: gitaddon.test
+Bundle-Version: 0.1.0.qualifier
+Fragment-Host: gitaddon.core;bundle-version="0.1.0"
+Bundle-RequiredExecutionEnvironment: J2SE-1.5,
+ JavaSE-1.6
+Require-Bundle: org.eclipse.jdt.junit4.runtime;bundle-version="1.1.0",
+ org.junit4;bundle-version="4.5.0"
