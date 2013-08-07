@@ -17,7 +17,12 @@ Builded against Indigo and tested in Kepler.
             name="Text Editor">
       </editor>
 
-# Get
+## Why
+
+I got tired of Eclipse opening .gitignore in external Editor and Eclipse crashes when changing files associations.  
+(Bug 412518 - Changing file associations causes Eclipse Kepler to crash (was .gitignore value causes Eclipse crash))[https://bugs.eclipse.org/bugs/show_bug.cgi?id=412518]
+
+## Get
 
 1. In Eclipse import.. Git
 2. as New general project 
