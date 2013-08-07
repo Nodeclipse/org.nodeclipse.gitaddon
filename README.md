@@ -5,7 +5,7 @@ Associate *.git* files with TextEditor
 
 ![](with-git-addon.PNG)
 
-Builded againt Indigo and tested in Kepler.
+Builded against Indigo and tested in Kepler.
 
       <editor
             class="org.eclipse.ui.editors.text.TextEditor"
