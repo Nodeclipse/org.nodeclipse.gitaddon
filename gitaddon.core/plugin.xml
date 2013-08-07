@@ -1,43 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?eclipse version="3.4"?>
 <plugin>
-   <extension
-         point="org.eclipse.ui.actionSets">
-      <actionSet
-            label="gitaddon Sample Action Set"
-            visible="true"
-            id="gitaddon.core.actionSet">
-         <menu
-               label="gitaddon Sample &amp;Menu"
-               id="sampleMenu">
-            <separator
-                  name="sampleGroup">
-            </separator>
-         </menu>
-         <action
-               label="&amp;gitaddon Sample Action"
-               icon="icons/sample.gif"
-               class="org.nodeclipse.gitaddon.core.SampleAction"
-               tooltip="Hello, Mavenized Eclipse. gitaddon is built with Tycho"
-               menubarPath="sampleMenu/sampleGroup"
-               toolbarPath="sampleGroup"
-               id="org.nodeclipse.gitaddon.core.SampleAction">
-         </action>
-      </actionSet>
-   </extension>
 
    <!-- git -->
    <extension
          point="org.eclipse.ui.editors">
       <editor
-            id="org.eclipse.ui.DefaultTextEditor"
-            name="Text Editor"
+            id="org.nodeclipse.editor.GitFileEditor"
+            name="Git Files Editor"
             class="org.eclipse.ui.editors.text.TextEditor"
             default="true"
             extensions="gitignore,gitmodules,gitattributes"
-            icon="icons/git.ico">
+            icon="icons/git.gif">
       </editor>
    </extension>
-
 
 </plugin>

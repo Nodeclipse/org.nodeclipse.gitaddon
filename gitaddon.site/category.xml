@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <feature url="features/gitaddon.feature_0.1.0.qualifier.jar" id="gitaddon.feature" version="0.1.0.qualifier"/>
+   <feature url="features/gitaddon.feature_0.1.0.qualifier.jar" id="gitaddon.feature" version="0.1.0.qualifier">
+      <category name="tools"/>
+   </feature>
+   <category-def name="tools" label="Tools"/>
 </site>
