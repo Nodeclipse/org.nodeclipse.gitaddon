@@ -62,6 +62,8 @@ For `kepler` update `MANIFEST.MF` as below in `.test` project (see [#3](https://
 
 MIT License was chosen at <http://choosealicense.com/> 
 
+http://www.xiconeditor.com/ Online Icon Editor
+
 ## Other 
 
 Not used here, but you also may be interested in

@@ -11,7 +11,7 @@
             class="org.eclipse.ui.editors.text.TextEditor"
             default="true"
             extensions="gitignore,gitmodules,gitattributes"
-            icon="icons/git.gif">
+            icon="icons/git16x16.ico">
       </editor>
    </extension>
 
