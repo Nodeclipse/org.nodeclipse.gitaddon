@@ -5,7 +5,7 @@ Associate *.git* files with TextEditor
 
 ![](with-git-addon.PNG)
 
-Builded againt Indigo and tested in Kepler.
+Builded against Indigo and tested in Kepler.
 
       <editor
             class="org.eclipse.ui.editors.text.TextEditor"
@@ -62,7 +62,7 @@ MIT License was chosen at <http://choosealicense.com/>
 Not used here, but you also may be interested in
  [A Maven Archetype for Hadoop Jobs](http://blog.mafr.de/2010/08/01/maven-archetype-hadoop/)
  
- ### Other links
+### Other links
  
  - http://stackoverflow.com/questions/12402860/eclipse-ctrlspace-content-assist-hook
  - http://stackoverflow.com/questions/1103199/eclipse-plugin-editor
