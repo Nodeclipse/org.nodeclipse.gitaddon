@@ -64,6 +64,8 @@ MIT License was chosen at <http://choosealicense.com/>
 
 http://www.xiconeditor.com/ Online Icon Editor
 
+Thanks to Bananeweizen for [help](http://stackoverflow.com/questions/18083936/eclipse-plugins-separate-editor-and-icons-assignment).
+
 ## Other 
 
 Not used here, but you also may be interested in
