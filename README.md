@@ -1,4 +1,3 @@
-
 ## About
 
 Associate *.git* files with TextEditor
@@ -39,6 +38,15 @@ I got tired of Eclipse opening .gitignore in external Editor and Eclipse crashes
 
 Run offline if to re-build
 `mvn -o package`
+
+## Ideas
+
+use properties editor
+
+ID: org.eclipse.jdt.ui.PropertiesFileEditor
+Class: org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileEditor
+Superclass: org.eclipse.ui.editors.text.TextEditor
+Plug-in: org.eclipse.jdt.ui
 
 ## Created
 
