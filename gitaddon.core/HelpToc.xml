@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?NLS TYPE="org.eclipse.help.toc"?>
+
+<toc label="Nodeclipse Help - Git Addon">
+	<topic label="About"  href="help/.about.md.html"/>
+	<topic label="Gitflow"  href="help/.gitflow.md.html"/>
+</toc>

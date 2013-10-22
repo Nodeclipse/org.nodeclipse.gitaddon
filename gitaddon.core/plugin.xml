@@ -15,4 +15,12 @@
       </editor>
    </extension>
 
+   <extension
+         point="org.eclipse.help.toc">
+      <toc
+            file="HelpToc.xml"
+            primary="true">
+      </toc>
+   </extension>
+
 </plugin>

@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Strict//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>C:\Users\weibl\git\NTS\org.nodeclipse.gitaddon\gitaddon.core\help\.about.md.html</title>
+
+
+<style type="text/css">
+
+.markdown-body {
+    border: 1px solid #CACACA;
+    padding: 30px;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.markdown-body h2 {
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.markdown-body code {
+    white-space: nowrap;
+}
+
+.markdown-body code, .markdown-body tt {
+    background-color: #F8F8F8;
+    border: 1px solid #EAEAEA;
+    border-radius: 3px 3px 3px 3px;
+    margin: 0 2px;
+    padding: 0 5px;
+}
+
+.markdown-body .highlight pre, .markdown-body pre {
+    background-color: #F8F8F8;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px 3px 3px 3px;
+    font-size: 13px;
+    line-height: 19px;
+    overflow: auto;
+    padding: 6px 10px;
+}
+
+.markdown-body img {
+    border: 0 none;
+}
+
+pre, code, tt {
+    font-family: Consolas,"Liberation Mono",Courier,monospace;
+    font-size: 12px;
+}
+</style>
+
+
+<script type="text/javascript">
+
+function getDocumentScrollTop() 
+{
+   var res = document.body.scrollTop || document.documentElement.scrollTop || window.pageYOffset || 0;
+   // alert(res);
+   return res;
+}
+
+function setDocumentScrollTop(ypos) 
+{
+	window.scrollTo(0, ypos);
+}
+
+</script>
+
+
+</head>
+<body class="markdown-body">
+<h1> <a name="nodeclipse-git-addon" class="anchor" href="..md.html#nodeclipse-git-addon"><span class="octicon octicon-link"></span></a>Nodeclipse Git Addon</h1> 
+<p>Source at GitHub <a href="https://github.com/Nodeclipse/org.nodeclipse.gitaddon">https://github.com/Nodeclipse/org.nodeclipse.gitaddon</a></p> 
+<h2> <a name="about" class="anchor" href="..md.html#about"><span class="octicon octicon-link"></span></a>About</h2> 
+<p>Associate <em>.git</em> files with TextEditor</p> 
+<p><a href="with-git-addon.PNG" target="_blank"><img src="with-git-addon.PNG" alt="" style="max-width:100%;" /></a></p> 
+<p>Builded against Indigo and tested in Kepler.</p> 
+<pre><code>  &lt;editor
+        class=&quot;org.eclipse.ui.editors.text.TextEditor&quot;
+        contributorClass=&quot;org.eclipse.ui.texteditor.BasicTextEditorActionContributor&quot;
+        default=&quot;true&quot;
+        extensions=&quot;gitignore,gitmodules,gitattributes&quot;
+        icon=&quot;icons/git.ico&quot;
+        id=&quot;org.eclipse.ui.DefaultTextEditor&quot;
+        name=&quot;Text Editor&quot;&gt;
+  &lt;/editor&gt;
+</code></pre> 
+<h2> <a name="why" class="anchor" href="..md.html#why"><span class="octicon octicon-link"></span></a>Why</h2> 
+<p>I got tired of Eclipse opening .gitignore in external Editor and Eclipse crashes when changing files associations.<br /><del><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=412518">Bug 412518 - Changing file associations causes Eclipse Kepler to crash (was .gitignore value causes Eclipse crash)</a></del></p> 
+<h2> <a name="ideas" class="anchor" href="..md.html#ideas"><span class="octicon octicon-link"></span></a>Ideas</h2> 
+<p>check <a href="https://github.com/Nodeclipse/org.nodeclipse.gitaddon/issues">issues</a></p> 
+<h2> <a name="tools" class="anchor" href="..md.html#tools"><span class="octicon octicon-link"></span></a>Tools</h2> 
+<p>Help created with <a href="https://github.com/satyagraha/gfm_viewer">GFM Viewer by Satyagraha</a></p>
+</body>
+</html>

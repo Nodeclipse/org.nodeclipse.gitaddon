@@ -1,0 +1,106 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Strict//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>C:\Users\weibl\git\NTS\org.nodeclipse.gitaddon\gitaddon.core\help\.gitflow.md.html</title>
+
+
+<style type="text/css">
+
+.markdown-body {
+    border: 1px solid #CACACA;
+    padding: 30px;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.markdown-body h2 {
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.markdown-body code {
+    white-space: nowrap;
+}
+
+.markdown-body code, .markdown-body tt {
+    background-color: #F8F8F8;
+    border: 1px solid #EAEAEA;
+    border-radius: 3px 3px 3px 3px;
+    margin: 0 2px;
+    padding: 0 5px;
+}
+
+.markdown-body .highlight pre, .markdown-body pre {
+    background-color: #F8F8F8;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px 3px 3px 3px;
+    font-size: 13px;
+    line-height: 19px;
+    overflow: auto;
+    padding: 6px 10px;
+}
+
+.markdown-body img {
+    border: 0 none;
+}
+
+pre, code, tt {
+    font-family: Consolas,"Liberation Mono",Courier,monospace;
+    font-size: 12px;
+}
+</style>
+
+
+<script type="text/javascript">
+
+function getDocumentScrollTop() 
+{
+   var res = document.body.scrollTop || document.documentElement.scrollTop || window.pageYOffset || 0;
+   // alert(res);
+   return res;
+}
+
+function setDocumentScrollTop(ypos) 
+{
+	window.scrollTo(0, ypos);
+}
+
+</script>
+
+
+</head>
+<body class="markdown-body">
+<h1> <a name="git--gitflow" class="anchor" href="..md.html#git--gitflow"><span class="octicon octicon-link"></span></a>Git &amp; Gitflow</h1> 
+<p>by Paul Verest</p> 
+<p>Disclaimer: I am not using this software, but I think it is interesting enough (as alternative git evolution) to be mentioned. Though I personally prefer 1 branch per repository (<code>master</code> for code, <code>gh-pages</code> for GitHub pages). GitHub allows treat repository just as branch and compare/merge between. Finally I decided to collect all ideas on one page.</p> 
+<h2> <a name="git-branching-model" class="anchor" href="..md.html#git-branching-model"><span class="octicon octicon-link"></span></a>Git branching model</h2> 
+<blockquote> 
+ <p>Git makes branching incredibly easy,and merging generally very easy. So, a proliferation of branches isn't in principle a problem. The <a href="http://nvie.com/posts/a-successful-git-branching-model/">initial gitflow proposal</a> basically provides a set of conventions on how to do development in Git.</p> 
+</blockquote> 
+<p><a href="nvie-com-A-successful-Git-branching-model.png" target="_blank"><img src="nvie-com-A-successful-Git-branching-model.png" alt="" style="max-width:100%;" /></a></p> 
+<p>Then this became git extentions <a href="https://github.com/nvie/gitflow">https://github.com/nvie/gitflow</a> , with command like below: </p> 
+<h3> <a name="creating-featurereleasehotfixsupport-branches" class="anchor" href="..md.html#creating-featurereleasehotfixsupport-branches"><span class="octicon octicon-link"></span></a>Creating feature/release/hotfix/support branches</h3> 
+<ul> 
+ <li> <p>To list/start/finish feature branches, use:</p> <pre><code>git flow feature
+git flow feature start &lt;name&gt; [&lt;base&gt;]
+git flow feature finish &lt;name&gt;
+</code></pre> <p>For feature branches, the <code>&lt;base&gt;</code> arg must be a commit on <code>develop</code>.</p> </li> 
+ <li> <p>To push/pull a feature branch to the remote repository, use:</p> <pre><code>git flow feature publish &lt;name&gt;
+  git flow feature pull &lt;remote&gt; &lt;name&gt;
+</code></pre> </li> 
+ <li> <p>To list/start/finish release branches, use:</p> <pre><code>git flow release
+git flow release start &lt;release&gt; [&lt;base&gt;]
+git flow release finish &lt;release&gt;
+</code></pre> <p>For release branches, the <code>&lt;base&gt;</code> arg must be a commit on <code>develop</code>.</p> </li> 
+ <li> <p>To list/start/finish hotfix branches, use:</p> <pre><code>git flow hotfix
+git flow hotfix start &lt;release&gt; [&lt;base&gt;]
+git flow hotfix finish &lt;release&gt;
+</code></pre> <p>For hotfix branches, the <code>&lt;base&gt;</code> arg must be a commit on <code>master</code>.</p> </li> 
+ <li> <p>To list/start support branches, use:</p> <pre><code>git flow support
+git flow support start &lt;release&gt; &lt;base&gt;
+</code></pre> <p>For support branches, the <code>&lt;base&gt;</code> arg must be a commit on <code>master</code>.</p> </li> 
+</ul>
+<h2> <a name="extending-with-other-view" class="anchor" href="..md.html#extending-with-other-view"><span class="octicon octicon-link"></span></a>Extending with other view</h2> 
+<p>If you know other ways of using git, add it as .md file at <a href="https://github.com/Nodeclipse/org.nodeclipse.gitaddon/tree/master/gitaddon.core/help">https://github.com/Nodeclipse/org.nodeclipse.gitaddon/tree/master/gitaddon.core/help</a></p>
+</body>
+</html>

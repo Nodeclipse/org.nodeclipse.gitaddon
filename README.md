@@ -1,8 +1,8 @@
 ## About
 
-Associate *.git* files with TextEditor
+Associate `*.git*` files with TextEditor
 
-![](with-git-addon.PNG)
+![](gitaddon.core/help/with-git-addon.PNG)
 
 Builded against Indigo and tested in Kepler.
 
@@ -19,7 +19,7 @@ Builded against Indigo and tested in Kepler.
 ## Why
 
 I got tired of Eclipse opening .gitignore in external Editor and Eclipse crashes when changing files associations.  
-(Bug 412518 - Changing file associations causes Eclipse Kepler to crash (was .gitignore value causes Eclipse crash))[https://bugs.eclipse.org/bugs/show_bug.cgi?id=412518]
+~~[Bug 412518 - Changing file associations causes Eclipse Kepler to crash (was .gitignore value causes Eclipse crash)](https://bugs.eclipse.org/bugs/show_bug.cgi?id=412518)~~
 
 ## Get
 
@@ -41,12 +41,7 @@ Run offline if to re-build
 
 ## Ideas
 
-use properties editor
-
-ID: org.eclipse.jdt.ui.PropertiesFileEditor
-Class: org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileEditor
-Superclass: org.eclipse.ui.editors.text.TextEditor
-Plug-in: org.eclipse.jdt.ui
+check [issues](https://github.com/Nodeclipse/org.nodeclipse.gitaddon/issues)
 
 ## Created
 
@@ -70,7 +65,7 @@ For `kepler` update `MANIFEST.MF` as below in `.test` project (see [#3](https://
 
 MIT License was chosen at <http://choosealicense.com/> 
 
-http://www.xiconeditor.com/ Online Icon Editor
+<http://www.xiconeditor.com/> Online Icon Editor
 
 Thanks to Bananeweizen for [help](http://stackoverflow.com/questions/18083936/eclipse-plugins-separate-editor-and-icons-assignment).
 
@@ -81,7 +76,7 @@ Not used here, but you also may be interested in
  
 ### Other links
  
- - http://stackoverflow.com/questions/12402860/eclipse-ctrlspace-content-assist-hook
- - http://stackoverflow.com/questions/1103199/eclipse-plugin-editor
+ - <http://stackoverflow.com/questions/12402860/eclipse-ctrlspace-content-assist-hook>
+ - <http://stackoverflow.com/questions/1103199/eclipse-plugin-editor>
  
  
