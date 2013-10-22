@@ -2,7 +2,7 @@
 <feature
       id="gitaddon.feature"
       label="gitaddon Feature"
-      version="0.1.0.qualifier"
+      version="1.0.0.qualifier"
       provider-name="Nodeclipse organization">
 
    <description url="http://www.nodeclipse.org/git">

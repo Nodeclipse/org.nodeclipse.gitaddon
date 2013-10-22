@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.nodeclipse</groupId>
   <artifactId>gitaddon</artifactId>
-  <version>0.1.0-SNAPSHOT</version>
+  <version>1.0.0-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>gitaddon :: parent</name>
   <description>gitaddon parent</description>
