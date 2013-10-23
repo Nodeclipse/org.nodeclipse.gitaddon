@@ -4,3 +4,5 @@
 .settings
 # maven
 target
+.*.md.html
+!*/help/.*.md.html
