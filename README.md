@@ -27,6 +27,10 @@ Builded against Indigo and tested in Kepler.
 I got tired of Eclipse opening .gitignore in external Editor and Eclipse crashes when changing files associations.  
 ~~[Bug 412518 - Changing file associations causes Eclipse Kepler to crash (was .gitignore value causes Eclipse crash)](https://bugs.eclipse.org/bugs/show_bug.cgi?id=412518)~~
 
+## Warning
+
+`.gitattributes` file will not be used by EGit, see <https://bugs.eclipse.org/bugs/show_bug.cgi?id=342372>
+
 ## Get
 
 1. In Eclipse import.. Git
