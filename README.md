@@ -29,7 +29,7 @@ I got tired of Eclipse opening .gitignore in external Editor and Eclipse crashes
 
 ## Warning
 
-`.gitattributes` file will not be used by EGit, see <https://bugs.eclipse.org/bugs/show_bug.cgi?id=342372>
+`.gitattributes` file will not be used by EGit, see open [Bug 342372 - support gitattributes](https://bugs.eclipse.org/bugs/show_bug.cgi?id=342372)
 
 ## Get
 
